@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: radial-gradient(circle, rgba(36,0,70,1) 0%, rgba(224,170,255,1) 50%, rgba(90,24,154,1) 100%);
+    color: #ffffff;
+    text-shadow: 0 0 15px peru;
+}
+
+#bday-age {
+    width: 700px;
+    padding: 20px 50px;
+    border-radius: 20px;
+    margin: -1px auto 50px auto;
+    background: radial-gradient(circle, rgba(195, 20, 50, 0.9430365896358543) 0%, rgba(255, 222, 233, 1) 48%);
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 480px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/img-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media1.tenor.com/m/QnrBSZjdRAIAAAAd/big-lips-kakashi.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/ramBbsu5kGc8AJHd1h/giphy.gif?cid=790b7611d4eoafscnrpo9p7setykwgz297hda2pdjq34xzxb&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/reaction.png");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media1.tenor.com/m/OarR9ABghf0AAAAd/bad-parenting-bad-parenting-ron.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/zwDNti5vWFujS/giphy.gif?cid=790b7611tzfbwvirk137cvbxc7b8o2re8b5f36q9k2ap3rdc&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+span {
+    display: block;
+}
+
